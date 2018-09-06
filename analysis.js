@@ -82,7 +82,7 @@ function Analysis(_userPath) {
 
 	this.printResults = function(){
 		var accuracyPct = Math.round(this.regression.r2 * 100); // rounds R^2
-		$('#results').html("Accuracy: " + accuracyPct + "%");
+		$('#results').html("Score: " + accuracyPct + "%");
 
 		// Output data to CSV in the console with this function
 		console.log(this.generateCSV(this.radiiData));
