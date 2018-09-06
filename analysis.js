@@ -1,6 +1,5 @@
 // analysis.js
 // Analysis of Spiral performance
-// Developed by George Marzloff (george@marzloffmedia.com)
 
 function Analysis(_userPath) {
 
